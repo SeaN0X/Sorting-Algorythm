@@ -29,4 +29,4 @@ var loop = setInterval(function(){
 }
 
 
-// exemplo: sorting([1, 5, 7, 9, 8, 4, 3, 10, 2, 6])
+// example: sorting([1, 5, 7, 9, 8, 4, 3, 10, 2, 6])
