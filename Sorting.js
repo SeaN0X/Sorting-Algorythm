@@ -20,7 +20,7 @@ function sortprocess(){
 
 var loop = setInterval(function(){
 	if(rem==arg.length-1){
-		return output
+		return arg
 		clearInterval(loop)
 	} else {
 		sortprocess()
