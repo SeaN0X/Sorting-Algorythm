@@ -1,6 +1,6 @@
-function sorting(arg) {
+async function sorting(arg) {
 var rem = 0
-
+return new Promise((resolve,reject) => {
 function sort(index){
     oldarr=arg
     var firstnum = Number(arg[index])
@@ -20,11 +20,12 @@ function sortprocess(){
 
 var loop = setInterval(function(){
 	if(rem==arg.length-1){
-		return arg
+		resolve(arg)
 		clearInterval(loop)
 	} else {
 		sortprocess()
 	}
+})
 })
 }
 
