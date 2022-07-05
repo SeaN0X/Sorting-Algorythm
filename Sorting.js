@@ -1,5 +1,6 @@
 async function sorting(arg) {
 var rem = 0
+
 return new Promise((resolve,reject) => {
 function sort(index){
     oldarr=arg
